@@ -1,7 +1,9 @@
 ﻿services:
   nsxlibrarymanager:
     container_name: nsxlibrarymanager
-    image: nsxlibrarymanager:latest
+    # Use the published Docker Hub image by default. The build context is kept so
+    # you can still build locally with `docker compose build` if needed.
+    image: newolonos/nsxlibrarymanager:latest
     build:
       context: .
     volumes:
