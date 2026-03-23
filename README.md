@@ -1,5 +1,6 @@
 ﻿# Nsx Library Manager
 ![Logo](./screenshots/logo.png)
+[![Build and Publish to Docker Hub (ARM64)](https://github.com/newolonos/NsxLibraryManager/actions/workflows/docker-publish-arm64.yml/badge.svg?branch=master)](https://github.com/newolonos/NsxLibraryManager/actions/workflows/docker-publish-arm64.yml)
 ## Description
 This project helps to manage and visualize a nintendo switch library, organizing the files and creating a database with all the information.
 I built this because I wanted to have a data grid that I could easily filter and sort my games,
